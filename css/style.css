@@ -1,0 +1,7 @@
+@import "reset.css";
+@import "main.css";
+
+body {
+    width:90%;
+    margin: auto;
+}
