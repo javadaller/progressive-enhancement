@@ -4,4 +4,15 @@
 body {
     width:90%;
     margin: auto;
+    background: linear-gradient(90deg, rgb(183, 181, 212) 0%, rgba(120,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+    /*background-image: url("../assets/img/04.jpg");
+    height: 100%;
+    background-position: bottom 1px right 1px;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
 }

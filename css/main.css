@@ -2,11 +2,38 @@ blockquote {
     width:50%;
     margin: auto;
     background-color: rgba(204, 204, 204, 0.486);
+    border:outset 3px;
+    padding:30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 q {
     font-size: 160%;
+    font-style: italic;
     
+}
+
+.villagers {
+    border:outset 3px;
+    border-color: rgb(139, 139, 139) rgb(139, 139, 139) rgb(139, 139, 139) rgb(199, 28, 28); 
+}
+
+.farmer {
+    border:outset 3px;
+    border-color: rgb(139, 139, 139) rgb(139, 139, 139) rgb(139, 139, 139) rgb(28, 54, 199); 
+}
+
+.good {
+    color:green;
+}
+
+.bad {
+    color:red;
+}
+
+header > h1 {
+    background: red;
 }
 
 hr {
@@ -24,4 +51,58 @@ hr::after {
     padding: 0 4px;
     position: relative;
     top: -13px;
+}
+
+tr:nth-child(even) {
+    background-color: #919191;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+li {
+    width:75%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+    padding-right: 30px;
+}
+
+.bien {
+    background-image: url('../assets/img/bien.png');
+}
+
+.mal {
+    background-image: url('../assets/img/mal.png');
+}
+
+.chat {
+
+    background-image: url('../assets/img/chat.png');
+}
+
+img {
+    float: left;
+    margin:15px;
+}
+
+article {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.notification {
+    background:#FFFFDD;
+  padding:.5rem 1rem;
+  border:3px solid #DDDDCC;
+  width:250px;
+  font-weight:bold;
+  color: #333300;
+    position: fixed;
 }
